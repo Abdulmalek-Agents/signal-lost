@@ -2,7 +2,7 @@
 
 > *"The signal isn't coming from outside. It's coming from her."*
 
-A short-form first-person sci-fi exploration-horror built in **Unity 2022 LTS / URP**. Single-player. PC-first, mobile-portable.
+A short-form first-person sci-fi exploration-horror built in **Unity 2022 LTS / URP**. Single-player. PC-first, mobile-portable. **Visual lane: Mouthwashing / Crow Country / Iron Lung.**
 
 **Status:** Pre-production — Mission 1 vertical-slice skeleton.
 
@@ -36,10 +36,11 @@ Mission 1 ships with **all systems** required for Missions 2–5. Data-driven vi
 | [`docs/01_Creative_Vision.md`](docs/01_Creative_Vision.md) | Creative Director's pitch |
 | [`docs/02_GDD.md`](docs/02_GDD.md) | Full Game Design Document |
 | [`docs/03_Mission1_Design.md`](docs/03_Mission1_Design.md) | Mission 1 scene-by-scene breakdown |
-| [`docs/04_Asset_List.md`](docs/04_Asset_List.md) | Unity Asset Store shopping list (~$150) |
+| [`docs/04_Asset_List.md`](docs/04_Asset_List.md) | Unity Asset Store shopping list (~$140) |
 | [`docs/05_Architecture.md`](docs/05_Architecture.md) | Code architecture & scalability |
 | [`docs/06_Mission_Scalability_Matrix.md`](docs/06_Mission_Scalability_Matrix.md) | 5-mission roadmap |
 | [`docs/07_Setup_Instructions.md`](docs/07_Setup_Instructions.md) | Clone → buy assets → press Play |
+| [`docs/08_Visual_Identity.md`](docs/08_Visual_Identity.md) | **Visual brief & USP differentiation (PSX hybrid)** |
 
 ---
 
@@ -63,6 +64,7 @@ All C# is written and committed. Your only manual work is buying assets, draggin
 - ScriptableObject-driven data layer
 - Object pooling for VFX/audio
 - Addressables for mission loading
+- **PSX/PS1 post-FX pipeline** (Aubergine PSX Effects) for visual USP
 
 ## 📜 Licence
 
